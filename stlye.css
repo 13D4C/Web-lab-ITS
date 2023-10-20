@@ -1,0 +1,61 @@
+
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-image: url(https://scontent.fbkk6-2.fna.fbcdn.net/v/t39.30808-6/362896781_1414891489087214_4553746659121194790_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=9n0syGDwGFYAX8poI1b&_nc_ht=scontent.fbkk6-2.fna&cb_e2o_trans=q&oh=00_AfDaL_TBnJESyIBpEv43xOJ8jk-iwtAEZJkVKhzFMzPqTQ&oe=6537D8FD);
+    width: auto;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.personal-info {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.edu-item, .exp-item {
+    margin-bottom: 20px;
+}
+
+.social-media {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.social-media a {
+    display: block;
+    margin-bottom: 10px;
+    color: #0073e6;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    background-color: #0073e6;
+    color: white;
+    padding: 10px;
+}
+img{
+    width: 400px;
+}
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+    }
+}
